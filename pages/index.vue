@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <gallery /> -->
     <Footer />
+    <Navbar />
   </div>
 </template>
 
