@@ -1,6 +1,6 @@
 <template>
     <!-- navbar here -->
-    <nav class="w-">
+    <nav class="w-full h-[90px] shadow-md">
         <div>
         <div>
             
