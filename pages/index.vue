@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import Footer from '~/components/footer.vue';
+// import Footer from '~/components/footer.vue';
 
 export default {
   name: 'IndexPage',
-  components: { Footer }
+  // components: { Footer }
 }
 </script>
