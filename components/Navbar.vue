@@ -9,7 +9,7 @@
 
             </div>
             <div class="my-7 font-extrabold text-2xl ml-4">
-                <nuxt-link to="/">MechaVerse</nuxt-link>
+                <nuxt-link to="/">Mecha<span class=" text-[#56A856]">Verse</span></nuxt-link>
             </div>
         </div>
         <div class="flex justify-between">

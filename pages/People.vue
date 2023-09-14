@@ -1,7 +1,9 @@
 <template>
     <div>
         <Navbar />
-        People
+        <div>
+            
+        </div>
         <Footer />
     </div>
 </template>
