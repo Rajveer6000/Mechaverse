@@ -1,7 +1,8 @@
 <template>
     <div>
         <Navbar />
-        Announcement
+        <!-- Announcement -->
+        <CoCard />
         <Footer />
     </div>
 </template>

@@ -2,7 +2,7 @@
     <div>
         <Navbar />
         Activities
-        <CoCard />
+                <CoCard />
 
         <Footer />
     </div>

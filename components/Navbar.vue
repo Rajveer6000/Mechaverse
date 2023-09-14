@@ -14,7 +14,7 @@
         </div>
         <div class="flex justify-between">
             <div>
-                <ul class="flex font-semibold text-lg">
+                <ul class="flex font-semibold text-lg"> 
                     <nuxt-link class="mx-6 my-8 font-bold" to="/Announcement">Announcement</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold" to="/People">People</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold" to="/Activities">Activities</nuxt-link>
