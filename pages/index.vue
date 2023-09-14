@@ -1,15 +1,17 @@
 <template>
   <div>
     <Navbar />
+    <p>
+      home
+    </p>
     <Footer />
-    
   </div>
 </template>
 
-<!-- <script>
+<script>
 
 
 export default {
   name: 'IndexPage',
 }
-</script> -->
+</script>

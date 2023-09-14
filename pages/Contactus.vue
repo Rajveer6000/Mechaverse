@@ -2,9 +2,7 @@
 <template>
     <div>
         <Navbar />
-        
-        <div class="bg-slate-300 text-center block px-48 " id="bg"  >
-
+        <div class="bg-slate-300 text-center block px-48 " id="bg">
             <div class=" my-auto flex-auto w-full h-full py-12 text-center px-16  ">
                 <div class="h-48 flex-auto text-8xl ">
                     <h1 class="my-auto">
@@ -19,16 +17,12 @@
                     target="_blank " class="contact">Reach Out to Us
                 </a>
             </div>
-
         </div>
-
         <Footer />
     </div>
 </template>
 <style>
-
-
-#bg{
+#bg {
     background-image: url('../static/images/background8.jpg');
     background-size: cover;
     height: 500px;

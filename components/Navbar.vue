@@ -4,11 +4,12 @@
 
         <div class="flex justify-between">
             <div>
-               <nuxt-link to="/index"><img class=" h-[60px] ml-[100px] my-4 " src="Mechaverse logo.jpg" alt="mechaverse logo"></nuxt-link>
+                <nuxt-link to="/"><img class=" h-[60px] ml-[100px] my-4 " src="Mechaverse logo.jpg"
+                        alt="mechaverse logo"></nuxt-link>
 
             </div>
             <div class="my-7 font-extrabold text-2xl ml-4">
-                MechaVerse
+                <nuxt-link to="/">MechaVerse</nuxt-link>
             </div>
         </div>
         <div class="flex justify-between">
@@ -18,11 +19,12 @@
                     <nuxt-link class="mx-6 my-8 font-bold" to="/People">People</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold" to="/Activities">Activities</nuxt-link>
                     <!-- <li class="m-6"> <a href="MechaVerse\pages\Contactus.vue">Contact Us</a></li> -->
-                   <nuxt-link class="mx-6 my-8 font-bold" to="/Contactus" >Contact us</nuxt-link>
+                    <nuxt-link class="mx-6 my-8 font-bold" to="/Contactus">Contact us</nuxt-link>
                 </ul>
             </div>
             <div>
-              <a href="http://www.tezu.ernet.in/" target="_blank"><img class="h-[65px] mr-[100px] my-3" src="TU LOGO.png" alt="TU logo" > </a>
+                <a href="http://www.tezu.ernet.in/" target="_blank"><img class="h-[65px] mr-[100px] my-3" src="TU LOGO.png"
+                        alt="TU logo"> </a>
             </div>
         </div>
     </nav>
