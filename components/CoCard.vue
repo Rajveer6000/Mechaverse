@@ -3,7 +3,7 @@
         <div class="inline-block">
             <div class="border-0 h-96 w-72 text-center">
                 <div class=" h-60 w-64 inline-block overflow-hidden bg-center">
-                    <img class="w-full h-full object-center object-cover" src="\images\features3.jpg">
+                    <img class="w-full h-full object-center object-cover" src="\images\features2.jpg">
                 </div>
                 <p class="font-extrabold">Rajveer Choudhary</p>
                 <p class="font-bold text-lg">Assistant</p>

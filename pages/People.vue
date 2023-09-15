@@ -2,24 +2,25 @@
     <div>
         <Navbar />
         <div class="mt-14  ">
-            <div class=" container font-extrabold px-72 content-center text-center">
-                <p class="text-5xl">Coordinator</p>
-                <div class="mt-16 flex justify-center space-x-5 ">
-                    <p>
-                        Faculty
-                    </p>
-                    <p>
-                        Student
-                    </p>
-                </div>
-                <div class="mb-28 mt-20 justify-items-center grid grid-cols-3 grid-flow-3 mx-14 gap-y-24 gap-x-20">
-                    <CoCard />
-                    <CoCard />
-                    <CoCard />
-                    <div></div>
-                    <CoCard />
+            <div class="container px-72 content-center text-center">
+                <p class="text-5xl  font-extrabold">Coordinator</p>
+                <div >
+                    <div class="mt-16 flex justify-start space-x-5 border-b-2 border-black">
+                        <nuxt-link id="" class="text-lg text-[#56A856] font-bold px-5 mb-3 hover:text-[#56A856]" to="/people">
+                         Faculty
+                        </nuxt-link >
+                        <nuxt-link  class="text-lg  font-bold px-5 mb-3 hover:text-[#56A856] " to="/student">
+                            Student
+                        </nuxt-link >
+                    </div>
                 </div>
 
+            </div>
+        </div>
+        <div class="container px-72 content-center text-center">
+            <div
+                class= "mb-28 mt-20 justify-items-center grid grid-cols-3 grid-flow-3 mx-14 gap-y-24 gap-x-20">
+                <div class="col-span-3"><CoCard /></div>
             </div>
         </div>
         <Footer />
