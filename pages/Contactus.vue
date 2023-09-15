@@ -6,7 +6,7 @@
             <div class=" bg-[#ffffff] my-auto flex-auto w-full h-full  py-20 mb-0 text-center px-16  ">
                 <div >
                     <div class="h-32 flex-auto text-8xl">
-                    <h1 class="text-green-400">
+                    <h1 class="text-black">
                         Contact Us
                     </h1>
                 </div>
