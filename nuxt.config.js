@@ -8,7 +8,14 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        href:
+        "https://fonts.google.com/specimen/Jost?preview.text=jost&preview.text_type=custom&query=jost"},
+    
+    
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
