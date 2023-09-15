@@ -15,9 +15,9 @@
         <div class="flex justify-between">
             <div>
                 <ul class="flex font-semibold text-lg"> 
-                    <nuxt-link class="mx-6 my-8 font-bold" to="/Announcement">Announcement</nuxt-link>
-                    <nuxt-link class="mx-6 my-8 font-bold" to="/People">People</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold" to="/Activities">Activities</nuxt-link>
+                    <nuxt-link class="mx-6 my-8 font-bold" to="/People">People</nuxt-link>
+                    <nuxt-link class="mx-6 my-8 font-bold" to="/Gallery">Gallery</nuxt-link>
                     <!-- <li class="m-6"> <a href="MechaVerse\pages\Contactus.vue">Contact Us</a></li> -->
                     <nuxt-link class="mx-6 my-8 font-bold" to="/Contactus">Contact us</nuxt-link>
                 </ul>
