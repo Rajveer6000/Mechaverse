@@ -15,7 +15,7 @@
         <div class="flex justify-between">
             <div>
                 <ul class="flex font-semibold text-lg">
-                    <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Activities">Activities</nuxt-link>
+                    <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Event">Events</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/People">People</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Gallery">Gallery</nuxt-link>
                     <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Contactus">Contact us</nuxt-link>

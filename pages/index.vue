@@ -1,6 +1,7 @@
 <template>
   <div>
     <Navbar />
+    
     <div class="h-[150px]">
       <!-- Department info start here -->
       <div class="w-full h-10 font-bold text-4xl text-center mt-10 mb-6">
