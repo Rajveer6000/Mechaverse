@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="container px-72 content-center text-center">
-            <div class="mb-28 mt-20 justify-items-center grid grid-cols-3 grid-flow-3 mx-14 gap-y-24 gap-x-20">
+            <div class="mb-28 mt-20 justify-items-center grid grid-cols-3 grid-flow-3 mx-14 gap-y-28 gap-x-20">
                 <div class="col-span-3">
                     <div class="inline-block">
                         <div class="border-0 h-96 w-72 text-center">

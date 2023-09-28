@@ -1,30 +1,76 @@
 <template>
     <!-- navbar here -->
-    <nav class="w-full h-[90px] shadow-md flex justify-between m-auto">
+    <div>
+        <nav class="w-full h-[60px] lg:h-[90px] shadow-md flex justify-between m-auto lg:px-10">
 
-        <div class="flex justify-between">
-            <div>
-                <nuxt-link to="/"><img class=" h-[60px] ml-[100px] my-4 " src="Mechaverse logo.jpg"
-                        alt="mechaverse logo"></nuxt-link>
+            <div class="flex justify-between">
+                <div class="ml-3  my-auto ">
+                    <nuxt-link to="/"><img class="lg:h-16 h-10 w-10 lg:w-16 " src="Mechaverse logo.jpg"
+                            alt="mechaverse logo"></nuxt-link>
 
+                </div>
+                <div class="my-auto lg:my-7 font-bold lg:font-extrabold  text-lg lg:text-2xl ml-4">
+                    <nuxt-link to="/">Mecha<span class=" text-[#56A856]">Verse</span></nuxt-link>
+                </div>
             </div>
-            <div class="my-7 font-extrabold text-2xl ml-4">
-                <nuxt-link to="/">Mecha<span class=" text-[#56A856]">Verse</span></nuxt-link>
+            <div class="flex justify-between">
+                <div>
+                    <ul class="flex font-semibold text-lg">
+                        <nuxt-link
+                            class=" lg:block mx-3 lg:mx-6 my-4 lg:my-8 font-medium text-xs lg:text-lg  lg:font-bold hover:text-[#56A856]"
+                            to="/Event">Events</nuxt-link>
+                        <nuxt-link
+                            class=" lg:block mx-3 lg:mx-6 my-4 lg:my-8 font-medium text-xs lg:text-lg lg:font-bold hover:text-[#56A856]"
+                            to="/People">People</nuxt-link>
+                        <nuxt-link
+                            class=" lg:block mx-3 lg:mx-6 my-4 lg:my-8 font-medium text-xs lg:text-lg lg:font-bold hover:text-[#56A856]"
+                            to="/Gallery">Gallery</nuxt-link>
+                        <nuxt-link
+                            class=" lg:block mx-3 lg:mx-6 my-4 lg:my-8 font-medium text-xs lg:text-lg lg:font-bold hover:text-[#56A856]"
+                            to="/Contactus">Contact us</nuxt-link>
+                    </ul>
+                </div>
+                <div class="my-auto hidden lg:block ">
+                    <a href="http://www.tezu.ernet.in/" target="_blank"><img class="lg:h-16 lg:w-16" src="TU LOGO.png"
+                            alt="TU logo"> </a>
+                </div>
             </div>
-        </div>
-        <div class="flex justify-between">
-            <div>
-                <ul class="flex font-semibold text-lg">
-                    <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Event">Events</nuxt-link>
-                    <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/People">People</nuxt-link>
-                    <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Gallery">Gallery</nuxt-link>
-                    <nuxt-link class="mx-6 my-8 font-bold hover:text-[#56A856]" to="/Contactus">Contact us</nuxt-link>
-                </ul>
+        </nav>
+
+        <!-- <div id="mobile-header" class="fixed left-0 right-0 top-0 z-100 block lg:hidden">
+            <div
+                class="container max-w-screen-lg px-4 pt-5 pb-5 lg:pb-2 mx-auto space-y-4 lg:space-y-0 lg:flex lg:items-center lg:justify-between lg:space-x-10 bg-burgundy">
+                <div class="flex justify-between items-center">
+                    <NuxtLink to="/" class="nav-link">
+                        <img src="TU LOGO.png" class="w-12 h-12 lg:w-24 lg:h-24">
+                    </NuxtLink>
+                    <p class="font-semibold text-lg lg:text-2xl tracking-normal text-white mx:16 lg:mx-28">JIRI WOMEN'S
+                        HOSTEL </p>
+                    <div class="flex items-center space-x-2 lg:hidden">
+                        <svg viewBox="0 0 20 20" fill="currentColor"
+                            class="w-6 h-6 text-white hover:text-black p-1 hover:bg-white box-content rounded-full"
+                            @click="toggleMenuToggle">
+                            <path v-if="toggleMenu" fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                            <path v-else fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-4 lg:hidden" v-if="toggleMenu">
+                    <div
+                        class="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-6 xl:space-x-8 lg:items-center pt-5">
+                        <NuxtLink to="/" class="nav-item">Home</NuxtLink>
+                        <NuxtLink to="/administration" class="nav-item">Administration</NuxtLink>
+                        <NuxtLink to="/facilities" class="nav-item">Facilities</NuxtLink>
+                        <NuxtLink to="/boarders" class="nav-item">Boarders</NuxtLink>
+                        <NuxtLink to="/gallery" class="nav-item">Gallery</NuxtLink>
+                        <NuxtLink to="/contact_us" class="nav-item">Contact Us</NuxtLink>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="http://www.tezu.ernet.in/" target="_blank"><img class="h-[65px] mr-[100px] my-3" src="TU LOGO.png"
-                        alt="TU logo"> </a>
-            </div>
-        </div>
-    </nav>
+        </div> -->
+    </div>
 </template>

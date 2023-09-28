@@ -1,4 +1,8 @@
 export default {
+  server: {
+    host: "0.0.0.0",
+    port: "3000"
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'MechaVerse',
@@ -9,12 +13,13 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: "stylesheet",
-        href:
-        "https://fonts.google.com/specimen/Jost?preview.text=jost&preview.text_type=custom&query=jost"},
-    
-    
+    {
+      rel: "stylesheet",
+      href:
+        "https://fonts.google.com/specimen/Jost?preview.text=jost&preview.text_type=custom&query=jost"
+    },
+
+
     ],
   },
 
@@ -31,6 +36,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/style-resources',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

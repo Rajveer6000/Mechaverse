@@ -2,18 +2,19 @@
 <template>
     <div>
         <Navbar />
-        <div class=" text-center block px-64  py-16" id="bg">
-            <div class=" bg-[#ffffff] my-auto flex-auto w-full h-full  py-20 mb-0 text-center px-10  ">
+        <div class=" text-center block px-12 lg:px-64 py-14 lg:py-16" id="bg">
+            <div class=" bg-[#ffffff] my-auto flex-auto w-full h-full py-10 lg:py-20 lg:mb-0 text-center px-10 lg:px-10  ">
                 <div>
-                    <div class="h-32 flex-auto text-8xl">
+                    <div class="lg:mb-5 mb-5 flex-auto text-3xl lg:text-8xl">
                         <h1 class="text-black">
                             Contact Us
                         </h1>
                     </div>
-                    <div class=" text-center">
-                        <p class="font-normal text-xl">Discover seamless communication on our Contact Us page. Connect
-                            with <span class="font-semibold text-3xl">Mecha</span><span
-                                class="font-semibold text-3xl text-[#56A856]">Verse</span>
+                    <div class=" text-center ">
+                        <p class="font-normal text-[11px] lg:text-xl">Discover seamless communication on our Contact Us page.
+                            Connect
+                            with <span class="font-semibold text-xs lg:text-3xl">Mecha</span><span
+                                class="font-semibold text-xs lg:text-3xl text-[#56A856]">Verse</span>
                             effortlessly – share inquiries,
                             feedback, or simply say hello. We're here to engage and assist you!</p>
                         <br>
@@ -37,3 +38,9 @@
 
 }
 </style>
+
+
+</template>
+
+
+
