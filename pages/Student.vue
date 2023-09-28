@@ -1,23 +1,23 @@
 <template>
     <div>
         <Navbar />
-        <div class="mt-14  ">
-            <div class="container px-72 content-center text-center" id="content1">
-                <p class="text-5xl  font-extrabold">Coordinator</p>
+        <div class=" mt-8 lg:mt-14">
+            <div class="container px-8 lg:px-72  content-center text-center" id="content1">
+                <p class="text-xl lg:text-5xl   font-extrabold">Coordinator</p>
                 <div>
-                    <div class="mt-16 flex justify-start space-x-5 border-b-2 border-black">
-                        <nuxt-link id="" class="text-lg font-bold px-5 mb-3 hover:text-[#56A856]" to="/people">
+                    <div class="mt-10 lg:mt-16 flex lg:justify-start justify-between  lg:space-x-5 border-b-2 border-black">
+                        <nuxt-link id="" class="text-xs lg:text-lg  font-bold px-5 mb-1 lg:mb-3 hover:text-[#56A856] " to="/people">
                             Faculty Coordinator
                         </nuxt-link>
-                        <nuxt-link class="text-lg text-[#56A856] font-bold px-5 mb-3 hover:text-[#56A856] " to="/student">
+                        <nuxt-link class="text-xs lg:text-lg text-[#56A856] font-bold px-5 mb-1 lg:mb-3 hover:text-[#56A856]" to="/student">
                             Student Representatives
                         </nuxt-link>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container px-72 content-center text-center">
-            <div class=" mb-28 mt-20 justify-items-center grid grid-cols-3 grid-flow-3 mx-14 gap-y-28 gap-x-20">
+        <div class="container px-8 lg:px-72  content-center text-center">
+            <div class=" mb-28 mt-20 justify-items-center grid grid-cols-1 lg:grid-cols-3 grid-flow-3 mx-14 gap-y-28 lg:gap-x-20">
                 <div class="inline-block">
                     <div class="border-0 h-96 w-72 text-center">
                         <div class=" h-60 w-64 inline-block overflow-hidden bg-center">
