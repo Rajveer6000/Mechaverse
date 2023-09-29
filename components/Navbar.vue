@@ -67,33 +67,29 @@
                         </svg>
                     </div>
                 </div>
-                <div class="flex flex-col space-y-4 lg:hidden shadow-md" v-if="toggleMenu">
+                <div class="flex flex-col space-y-4 lg:hidden" v-if="toggleMenu">
                     <div
                         class="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-6 xl:space-x-8 lg:items-center pt-5 ">
 
-                        <div class="my-3 content-center">
-                            <NuxtLink to="/Event" class="nav-item hover:text-[#56A856] font-medium ">
-                                <p class="text-black">Events</p>
-                            </NuxtLink>
-                        </div>
-                        <div class="my-3 content-center">
+                        <NuxtLink to="/Event" class="nav-item mx-auto hover:text-[#56A856] font-medium ">
+                            <p class="text-black">Events</p>
+                        </NuxtLink>
 
-                            <NuxtLink to="/People" class="nav-item hover:text-[#56A856] font-medium ">
-                                <p class=" text-black">People</p>
-                            </NuxtLink>
-                        </div>
-                        <div class="my-3 content-center">
+                        <NuxtLink to="/People" class="nav-item mx-auto hover:text-[#56A856] font-medium ">
+                            <p class=" text-black">People</p>
+                        </NuxtLink>
 
-                            <NuxtLink to="/Gallery" class="nav-item hover:text-[#56A856] font-medium ">
-                                <p class=" text-black">Gallery</p>
-                            </NuxtLink>
-                        </div>
-                        <div class="my-3 content-center">
+                        <NuxtLink to="/Gallery" class="nav-item mx-auto hover:text-[#56A856] font-medium ">
+                            <p class=" text-black">Gallery</p>
+                        </NuxtLink>
 
-                            <NuxtLink to="/Contactus" class="nav-item hover:text-[#56A856] font-medium ">
-                                <p class=" text-black">Contact Us</p>
-                            </NuxtLink>
-                        </div>
+                        <NuxtLink to="/Contactus" class="nav-item mx-auto hover:text-[#56A856] font-medium ">
+                            <p class=" text-black">Contact Us</p>
+                        </NuxtLink>
+
+                        <a href="http://www.tezu.ernet.in/" target="_blank"><img class="mx-auto h-10 w-10 lg:h-16 lg:w-16"
+                                src="TU LOGO.png" alt="TU logo"> </a>
+
                     </div>
                 </div>
             </div>
