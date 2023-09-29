@@ -2,9 +2,9 @@
   <div>
     <Navbar />
 
-    <div class="lg:h-40 h-28 lg:my-auto">
+    <div class="lg:h-40 h-28 lg:my-auto mt-10">
       <!-- Department info start here -->
-      <div class="w-full h-10 font-bold text-xl lg:text-4xl text-center my-5 lg:my-10">
+      <div class="w-full h-10 font-bold text-xl lg:text-4xl text-center  lg:my-10">
         <h1>Department of Mechanical Engineering</h1>
       </div>
       <div class="w-full h-8 font-semibold text-ls lg:text-2xl text-center ">

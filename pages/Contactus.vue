@@ -40,7 +40,5 @@
 </style>
 
 
-</template>
-
 
 

@@ -1,9 +1,9 @@
 <template>
     <!-- navbar here -->
     <div>
-        <nav class="lg:block w-full h-[60px] lg:h-[90px] shadow-md flex justify-start m-auto lg:px-10" id="top-header">
+        <nav class=" w-full h-[60px] lg:h-[90px] shadow-md flex justify-between m-auto lg:px-10" id="top-header">
 
-            <div class="flex justify-between">
+            <div class="flex ">
                 <div class="ml-3  my-auto ">
                     <nuxt-link to="/"><img class="lg:h-16 h-10 w-10 lg:w-16 " src="Mechaverse logo.jpg"
                             alt="mechaverse logo"></nuxt-link>
@@ -13,7 +13,7 @@
                     <nuxt-link to="/">Mecha<span class=" text-[#56A856]">Verse</span></nuxt-link>
                 </div>
             </div>
-            <div class="flex justify-start">
+            <div class="flex ">
                 <div>
                     <ul class="flex font-semibold text-lg">
                         <nuxt-link
@@ -41,10 +41,20 @@
             <div
                 class="container max-w-screen-lg px-4 pt-5 pb-5 lg:pb-2 mx-auto space-y-4 lg:space-y-0 lg:flex lg:items-center lg:justify-between lg:space-x-10 bg-white shadow-md">
                 <div class="flex justify-between">
-                    <NuxtLink to="/" class="nav-link">
+                    <!-- <NuxtLink to="/" class="nav-link">
                         <img src="Mechaverse logo.jpg" class="w-12 h-12 lg:w-24 lg:h-24">
                     </NuxtLink>
-                    <p class="font-semibold text-lg lg:text-2xl tracking-normal text-black mx:16 lg:mx-28">MechaVerse </p>
+                    <p class="font-semibold text-lg lg:text-2xl tracking-normal text-black mx:16 lg:mx-28">MechaVerse </p> -->
+                    <div class="flex ">
+                        <div class="ml-3  my-auto ">
+                            <nuxt-link to="/"><img class="lg:h-16 h-10 w-10 lg:w-16 " src="Mechaverse logo.jpg"
+                                    alt="mechaverse logo"></nuxt-link>
+
+                        </div>
+                        <div class="my-auto lg:my-7 font-bold lg:font-extrabold  text-lg lg:text-2xl ml-4">
+                            <nuxt-link to="/">Mecha<span class=" text-[#56A856]">Verse</span></nuxt-link>
+                        </div>
+                    </div>
                     <div class="flex items-center space-x-2 lg:hidden">
                         <svg viewBox="0 0 20 20" fill="currentColor"
                             class="w-6 h-6 text-black p-1  box-content rounded-full" @click="toggleMenuToggle">
@@ -59,21 +69,31 @@
                 </div>
                 <div class="flex flex-col space-y-4 lg:hidden shadow-md" v-if="toggleMenu">
                     <div
-                        class="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-6 xl:space-x-8 lg:items-center pt-5">
+                        class="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-6 xl:space-x-8 lg:items-center pt-5 ">
 
-                        <NuxtLink to="/Event" class="nav-item">
-                            <p class="text-black">Events</p>
-                        </NuxtLink>
-                        <NuxtLink to="/People" class="nav-item">
-                            <p class="text-black">People</p>
-                        </NuxtLink>
+                        <div class="my-3 content-center">
+                            <NuxtLink to="/Event" class="nav-item hover:text-[#56A856] font-medium ">
+                                <p class="text-black">Events</p>
+                            </NuxtLink>
+                        </div>
+                        <div class="my-3 content-center">
 
-                        <NuxtLink to="/Gallery" class="nav-item">
-                            <p class="text-black">Gallery</p>
-                        </NuxtLink>
-                        <NuxtLink to="/Contactus" class="nav-item">
-                            <p class="text-black">Contact Us</p>
-                        </NuxtLink>
+                            <NuxtLink to="/People" class="nav-item hover:text-[#56A856] font-medium ">
+                                <p class=" text-black">People</p>
+                            </NuxtLink>
+                        </div>
+                        <div class="my-3 content-center">
+
+                            <NuxtLink to="/Gallery" class="nav-item hover:text-[#56A856] font-medium ">
+                                <p class=" text-black">Gallery</p>
+                            </NuxtLink>
+                        </div>
+                        <div class="my-3 content-center">
+
+                            <NuxtLink to="/Contactus" class="nav-item hover:text-[#56A856] font-medium ">
+                                <p class=" text-black">Contact Us</p>
+                            </NuxtLink>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -160,7 +180,7 @@ export default {
     left: 0;
     top: 0;
     /* your height */
-    height: 77px;
+    height: 70px;
     /* .... */
     -webkit-transition: -webkit-transform .4s;
     -moz-transition: -moz-transform .4s;
@@ -177,4 +197,5 @@ export default {
 
 .nav-item {
     @apply text-white border-b-2 border-transparent transition-all py-2
-}</style>
+}
+</style>
