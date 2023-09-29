@@ -35,7 +35,7 @@
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
     "sass": "^1.68.0",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^13.3.2",
     "vue-jest": "^3.0.4"
   }
 }
